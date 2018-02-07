@@ -1,0 +1,30 @@
+body {
+	margin-top: 5%;
+	font-size: 18px;
+	color: black;
+	font-family: "Avenir Next";
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#name {
+	font-family: "Futura";
+	font-size: 30px;
+	text-align: center;
+}
+
+.insti {
+	font-weight: 500;
+}
+
+.section {
+	color: #CE0827;
+	font-size: 20px;
+	font-weight: 800;
+	font-family: "menlo";
+}
+
+ul {
+	margin-top: 0px;
+}
+

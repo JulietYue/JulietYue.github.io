@@ -1,0 +1,30 @@
+body  {
+	font-size: 20px;
+	text-align: center;
+	font-family: "Futura";
+}
+
+div {
+	text-align: center;
+	color: 	#CE0827;
+	font-family: "Futura";
+	font-size: 30px
+}
+
+#image {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a:link {
+	color: 	#000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#CE0827;
+	text-decoration: none;
+}
+
+
