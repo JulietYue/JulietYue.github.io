@@ -1,0 +1,36 @@
+body {
+	margin-top: 5%;
+	font-size: 18px;
+	color: black;
+	font-family: "Avenir Next";
+	font-weight: 450;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.title {
+	color: #CE0827;
+	font-size: 30px;
+	font-weight: 100;
+	font-family: "Futura";
+}
+
+#travel {
+	font-size: 27px;
+	text-align: right;
+}
+
+#GreatWall {
+	margin-left: 10%;
+	border-style: outset;
+}
+
+.major {
+	font-weight: 550;
+}
+
+.caption {
+	text-align: left;
+}
+
+
