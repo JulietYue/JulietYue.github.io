@@ -22,7 +22,12 @@ body {
 
 #GreatWall {
 	margin-left: 10%;
-	border-style: outset;
+	border-style: solid;
+	border-left-color: #E1E1E1;
+	border-top-color: #E1E1E1;
+	border-bottom-color: #6B6B6B;
+	border-right-color: #6B6B6B;
+	border-radius:15px;
 }
 
 .major {
@@ -30,7 +35,12 @@ body {
 }
 
 .caption {
+	color: #4D4D4D;
+	margin-left: 10%;
+	margin-right: 10%;
 	text-align: left;
+	font-size: 25px;
+	font-family: 'Reenie Beanie', cursive;
 }
 
 
