@@ -1,11 +1,6 @@
-Juliet Yue
+Personal Website
+==================
 
-This is comp20 hw1
+This is a work-in-progress website based on comp20 assignment 1. I designed the website using Wix and now implemented all the details using HTML/CSS, Javascript (jQuery and bootstrap)
 
-I have spent approximately 10 hours on this assignment
-
-I have implemented a html index page, a page of my resume and a page of my biography.
-
-I used two .css style sheets to style the website.
-
-My tufts domain is successfuly redirected to my github website
+I plan on keep working on the website over the summer and have a finalized version by August
