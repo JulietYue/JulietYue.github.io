@@ -6,19 +6,46 @@
 <title>Resume</title>
 <meta charset="utf-8"/>
 <link href="resume_style.css" rel="stylesheet">
-
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-	<div id="name"><p>Juliet Qinghan Yue</p></div>
-	<p class="section">Education</p>
+	<div class="jumbotron jumbotron-fluid">			
+	  	<div class="container">
+	  	<table>
+	  		<tr class="notag"><td><br></td><td><br></td> </tr>
+	    	<tr><td><br></td><td class="tag">#Programmer</td> </tr>
+	    	<tr class="notag"><td><br></td><td><br></td> </tr>
+	    	<tr><td><br></td><td  class="tag"> #Traveler</td></tr>
+	    	<tr class="notag"><td><br></td><td><br></td> </tr>
+	    	<tr><td><br></td><td class="tag"> #Trilingual </td></tr>
+			<tr class="notag"><td><br></td><td><br></td> </tr>
+			<tr><td></td><td class="icon"><a href="https://github.com/JulietYue/"><img src="small.png"></a></td> </tr>
+			<tr class="notag"><td><br></td><td><br></td> </tr>			
+	    </table>
+	  	</div>
+	</div> 
+	<div class="content">
+
+	<table>
+		<tr>
+		<td><a href="#edu" class="button">Education</a></td>
+		<td><a href="#exp" class="button">Experience</a></td>
+		<td><a href="#proj" class="button">Projects</a></td>
+		</tr>
+	</table><br>
+	<p class="section" id="edu">Education</p>
 	<p><span class="insti">Tufts University</span><br/>
 	Bachelor of Science in Computer Science, May 2020 <br/>
 	GPA 3.94 <br/>
 	Relevent Coursework:<br/> Data Structures, Machine Structure and Assembly Language Programming, Discrete Mathematics, Web Programming, Algorithms, Linear Algebra, Statistics;
 	</p>
 
-	<p class="section">Experience</p>
+	<p class="section" id="exp">Experience</p>
 
 	<p><span class="insti">Tufts University Computer Science Department</span><br/>
 	<span class="pos">Teaching assistant for Discrete Mathematics (Fall 2017) and Data Structures (Spring 2018)</span></p>
@@ -41,13 +68,13 @@
 		<li> Represented our team in the UK Visa and Immigration office in Beijing meeting, during which the proposal to improve collaboration with other teams was discussed</li>
 	</ul>
 
-	<p class="section">Class Projects</p>
-	<p><span class="insti">Cache and Locality, </span><span class="pos">Fall 2017</span><br/>
+	<p class="section" id="proj">Class Projects</p>
+	<span class="insti">Cache and Locality, </span><span class="pos">Fall 2017</span><br/>
 	<ul>
 		<li>Read in a pnm image to a 2D blocked array and was able to rotate image in 90, 180 and 270 degrees</li>
 		<li>Analyzed time needed to rotate image to different degrees using the theory of cache and locality</li>
 	</ul>
-	<p><span class="insti">Word Search Tool, </span><span class="pos">Spring 2017</span><br/>
+	<span class="insti">Word Search Tool, </span><span class="pos">Spring 2017</span><br/>
 	<ul>
 		<li>Implemented a word search program in C++ based on a Hash Table built by myself</li> 
 		<li>Optimized time and space usage to make it faster and take up less space than the class demo program</li>
@@ -72,6 +99,7 @@
 
 	
 <p><a href="index.html">Back to home</a></p>
+</div>
 </body>
 
 </html>

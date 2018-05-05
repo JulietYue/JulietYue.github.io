@@ -1,23 +1,73 @@
-<!doctype html> 
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<html> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <style>
 
-<head>
-	<title>Juliet's Web</title>
-<meta charset="utf-8" />
-<link href="stylesheet.css" rel="stylesheet">
-</head>
+        body {
+            text-align: center;
+            color:  #CE0827;
+            font-family: "Futura";
+            font-size: 50px;
+            font-weight: 300;
+        }
 
-<body>
-	<div id="image">
-		<p><img src="me.jpg" alt="my picture(Doudou)"/></p>
-	</div>
-	<div>
-		<p>JULIET YUE</p>
-	</div>
+        #center {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          font-size: 60px;
+          color:black;
+          transform: translate(-50%, -50%);
+        }
+        #hello {
+            position: fixed;
+            bottom: 15%;
+            left: 10%;
+        }
+        #nihao {
+            position: fixed;
+            top: 20%;
+            right: 15%;
+        }
+        #hola {
+            font-size: 40px;
+            position: fixed;
+            top: 15%;
+            left: 15%;
+        }
 
-	<p id="bio"><a href="bio.html">Biography</a></p>
-	<p id="resume"><a href="resume.html">Resume</a></p>
-</body>
+    </style>
 
+    <script>
+        $(document).ready(function() {
+            setTimeout(function(){$('#hello').css('transform', 'scale(1.8)'); }, 100);
+            setTimeout(function(){$('#hello').css('transform', 'scale(1.2)'); }, 1000);
+            setTimeout(function(){$('#nihao').css('transform', 'scale(1.8)'); }, 1000);
+            setTimeout(function(){$('#nihao').css('transform', 'scale(1.2)'); }, 1900);
+            setTimeout(function(){$('#hola').css('transform', 'scale(1.8)'); }, 1900);
+            setTimeout(function(){$('#hola').css('transform', 'scale(1.2)'); }, 2800);
+            setTimeout(function(){window.location.replace("resume.html");}, 3000);
+                 
+        });
+    </script>
+
+    <title>Juliet Yue</title>
+  </head>
+  <body>
+    <div>
+    <p id="hello">Hello</p>
+    <p id="nihao">你好</p>
+    <p id="hola" >Hola</p>
+    <p id="center">JULIET YUE</p>
+    </div>
+    
+  </body>
 </html>
