@@ -8,14 +8,14 @@
 
 .insti {
 	font-weight: 500;
-	
 }
 
 .section {
 	color: #CE0827;
 	font-size: 23px;
-	font-weight: 100;
 	font-family: "Futura";
+	border-top-color:navy ;
+	border-top-style:solid;
 }
 .jumbotron {
 	background-image: url(me.JPG);
@@ -24,7 +24,7 @@
 	opacity: 0.7;
 	
 }
-.container{
+#tagtable{
 	color:white;
     position: absolute;
     bottom: 25%;
@@ -36,30 +36,71 @@ table {
 	border-left: 10px solid white;
 }
 
-.tag{
-    font-weight: 100;
-	font-family: "Futura";
-    background-color: rgba(59,61,62,0.9);
+
+td{
+	padding-left: 15px;
+	padding-right: 30px;
+	
 }
-    	td{
-    		padding-left: 15px;
-    		padding-right: 30px;
-    		
-    	}
-    	.notag{
-    		font-size: 20px;
-    	}
+.notag{
+	font-size: 20px;
+}
+.icon {
+    background-color: white;
+    opacity: 0.6;
+    font-size: 10px;
+    text-align: center;
+}
 
-    	.icon {
-    		background-color: white;
-    		opacity: 0.6;
-    		font-size: 10px;
-    		text-align: center;
-    	}
+.button{
+	color: #CE0827;
+    font-weight:500;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
 
-    	.button{
-    		color: white;
-    		padding:5px;
-    		background-color: #CE0827;
-    		box-shadow: 0, 0, 8px, 8px;
-    	}
+
+.tag{
+    font-family: "Futura",sans-serif;
+    background-color: rgba(59,61,62,0.9);
+
+}
+
+#school{
+	font-size: 20px;
+	font-weight: 500;
+}
+a.button:hover {
+    background-color: #CE0827;
+    border-radius: 5px;
+    padding:10px;
+    color:white;
+    box-shadow: 3px 3px 2px #888888;
+    border-bottom-style: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#CE0827;
+}
+
+#bookmark {
+    width: 100%;
+    text-align: center;
+
+}
+
+.highlight {
+	background-image: url(highlight.png);
+	background-repeat: no-repeat;
+	background-size: 100% 95%;
+}
+
+.underline {
+	border-bottom-color:yellow ;
+	border-bottom-style:solid;
+	padding-bottom: 0;
+
+}
+
+

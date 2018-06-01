@@ -1,22 +1,37 @@
-body  {
-	font-size: 20px;
-	text-align: center;
-	font-family: "Futura";
+body {
+    color:  #CE0827;
+    font-family: "Futura";
+    font-size: 50px;
+    font-weight: 300;
 }
 
-div {
-	text-align: center;
-	color: 	#CE0827;
-	font-family: "Futura";
-	font-size: 30px
+#center {
+	position: fixed;
+	top: 50%;
+    left: 50%;
+	font-size: 60px;
+    color:black;
+    transform: translate(-50%, -50%);
+}
+#hello {
+    position: fixed;
+    bottom: 15%;
+    left: 10%;
+}
+#nihao {
+ 	position: fixed;
+ 	top: 20%;
+ 	right: 15%;
+}
+#hola {
+    font-size: 40px;
+    position: fixed;
+    top: 15%;
+    left: 15%;
 }
 
-#image {
-    margin-left: 20%;
-    margin-right: 20%;
-}
 
-a:link {
+/*a:link {
 	color: 	#000000;
 	text-decoration: none;
 }
@@ -24,5 +39,5 @@ a:link {
 a:visited {
 	color:#000000;
 }
-
+*/
 
