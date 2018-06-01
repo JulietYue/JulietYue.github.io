@@ -52,14 +52,6 @@ td{
     text-align: center;
 }
 
-.button{
-	color: #CE0827;
-    font-weight:500;
-    border-bottom-style: solid;
-    border-bottom-color: grey;
-}
-
-
 .tag{
     font-family: "Futura",sans-serif;
     background-color: rgba(59,61,62,0.9);
@@ -70,7 +62,8 @@ td{
 	font-size: 20px;
 	font-weight: 500;
 }
-a.button:hover {
+
+.button{
     background-color: #CE0827;
     border-radius: 5px;
     padding:10px;
@@ -78,6 +71,21 @@ a.button:hover {
     box-shadow: 3px 3px 2px #888888;
     border-bottom-style: none;
     text-decoration: none;
+}
+
+a.button:hover {
+    color: #CE0827;
+    font-weight:500;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+	background-color:white;
+	box-shadow: none;
+ 	border-radius:0px;
+ 	text-decoration: none;
+}
+
+a {
+	color:#CE0827;
 }
 
 a:visited {

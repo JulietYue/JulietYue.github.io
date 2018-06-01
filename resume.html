@@ -15,7 +15,7 @@
 
 <body>
 	<div class="jumbotron jumbotron-fluid">			
-	  	<div class="container">
+	  	<div class="container" id="tagtable">
 	  	<table>
 	  		<tr class="notag"><td><br></td><td><br></td> </tr>
 	    	<tr><td><br></td><td class="tag">#Programmer</td> </tr>
@@ -31,45 +31,60 @@
 	</div> 
 	<div class="content">
 
-	<table>
+	<table id="bookmark">
 		<tr>
 		<td><a href="#edu" class="button">Education</a></td>
 		<td><a href="#exp" class="button">Experience</a></td>
 		<td><a href="#proj" class="button">Projects</a></td>
+		<td><a href="#skills" class="button">Skills</a></td>
+		<td><a href="#activ" class="button">Activities</a></td>
 		</tr>
-	</table><br>
-	<p class="section" id="edu">Education</p>
-	<p><span class="insti">Tufts University</span><br/>
-	Bachelor of Science in Computer Science, May 2020 <br/>
-	GPA 3.94 <br/>
-	Relevent Coursework:<br/> Data Structures, Machine Structure and Assembly Language Programming, Discrete Mathematics, Web Programming, Algorithms, Linear Algebra, Statistics;
-	</p>
+	</table><br/><br/>
 
-	<p class="section" id="exp">Experience</p>
+	<div class="container">
+	  <div class="row">
+	  	<div class="col-6 col-md-3">
+	  		<p class="section" id="edu">Education</p>
+	  	</div>
+		<div class="col-12 col-md-9">
+			<p><span id="school">Tufts University</span><br/>
+			Bachelor of Science in <span class="highlight">Computer Science</span>, and minor in <span class="highlight">Economics</span>, <span class="insti">May 2020 <br/>		
+			GPA 3.91 <br/>
+			Relevent Coursework</span>:<br/> Data Structures, Machine Structure and Assembly Language Programming, Discrete Mathematics, Web Programming, Algorithms, Linear Algebra, Statistics;
+			</p>
+		</div>
+	  </div>
 
-	<p><span class="insti">Tufts University Computer Science Department</span><br/>
-	<span class="pos">Teaching assistant for Discrete Mathematics (Fall 2017) and Data Structures (Spring 2018)</span></p>
-	<ul>
-		<li> Grade homework and exams, lead labs, and hold office hours</li>
-		<li>Read students' code to pinpoint apparent problems and help explain related conceptual issues</li>
-	</ul>
+	<div class="row">
+  	<div class="col-6 col-md-3"><p class="section" id="exp">Experience</p>
+	</div>
+    <div class="col-12 col-md-9"><p><span class="insti">Tufts University Computer Science Department</span><br/>
+		<span class="pos">Teaching assistant for Discrete Mathematics (Fall 2017) and Data Structures (Spring 2018)</span></p>
+			<ul>
+				<li> Grade homework and exams, lead labs, and hold office hours</li>
+				<li>Read students' code to pinpoint apparent problems and help explain related conceptual issues</li>
+			</ul>
 
-	<p><span class="insti">Tufts Girls of Code</span><br/>	
-	<span class="pos">Volunteer, November 2017 - Present</span> </p>
-	<ul>
-		<li>Introduce basic programming skills to K-12 girls in the neighborhood and encourage them to go into
-		STEM field in the future.</li>
-	</ul>
+			<p><span class="insti">Tufts Girls of Code</span><br/>	
+			<span class="pos">Volunteer, November 2017 - Present</span> </p>
+			<ul>
+				<li>Introduce basic programming skills to K-12 girls in the neighborhood and encourage them to go into
+				STEM field in the future.</li>
+			</ul>
 
-	<p><span class="insti">British Embassy of Beijing</span><br/>
-	<span class="pos">Entry Clearance Assistant, May - July 2017</span></p>
-	<ul>
-		<li>Pre-evaluated visa applications and assisted logistics in the office</li>
-		<li> Represented our team in the UK Visa and Immigration office in Beijing meeting, during which the proposal to improve collaboration with other teams was discussed</li>
-	</ul>
+			<p><span class="insti">British Embassy of Beijing</span><br/>
+			<span class="pos">Entry Clearance Assistant, May - July 2017</span></p>
+			<ul>
+				<li>Pre-evaluated visa applications and assisted logistics in the office</li>
+				<li> Represented our team in the UK Visa and Immigration office in Beijing meeting, during which the proposal to improve collaboration with other teams was discussed</li>
+			</ul>
+			</div>
+		</div>
 
-	<p class="section" id="proj">Class Projects</p>
-	<span class="insti">Cache and Locality, </span><span class="pos">Fall 2017</span><br/>
+		<div class="row">
+  	<div class="col-6 col-md-3">	<p class="section" id="proj">Class Projects</p>
+	</div>
+    <div class="col-12 col-md-9"><span class="insti">Cache and Locality, </span><span class="pos">Fall 2017</span><br/>
 	<ul>
 		<li>Read in a pnm image to a 2D blocked array and was able to rotate image in 90, 180 and 270 degrees</li>
 		<li>Analyzed time needed to rotate image to different degrees using the theory of cache and locality</li>
@@ -79,27 +94,42 @@
 		<li>Implemented a word search program in C++ based on a Hash Table built by myself</li> 
 		<li>Optimized time and space usage to make it faster and take up less space than the class demo program</li>
 	</ul>
+    </div>
 
-	<p class="section">Skills</p>
-	<ul>
-		<li>Programming languages: C++, C, HTML, CSS, JavaScript</li>
-		<li>Operating Systems: Proficient in Mac OS and Windows, Familiar with Linux</li>
-		<li>Software: Sublime, Emacs, Stata</li>
-		<li>Languages: Bilingual in Mandarin Chinese and English, Conversational Spanish
-		</li>
-	</ul>
+  </div>
 
-	<p class="section">Activities</p>
-	<p><span class="insti">Project Pengyou Tufts Chapter</span><br/>
-	<span class="pos">Co-founder, Spring 2017</span></p>
-	<ul>
-		<li>Communicate and collaborate with all the affiliated parties and resources on campus</li>
-		<li>Prepare and hold club events in the hope of introducing genuine Chinese culture through cooking</li>
-	</ul>
+	<div class="row">
+  	<div class="col-6 col-md-3">	<p class="section" id="skills">Skills</p>
+		</div>
+    <div class="col-12 col-md-9">
+		<p><span class="insti">Programming languages:</span> C++, C, HTML, CSS, JavaScript<br/>
+		<span class="insti">Operating Systems:</span> Proficient in Mac OS and Windows, Familiar with Linux<br/>
+		<span class="insti">Software: </span>Sublime, Emacs, Stata<br/>
+		<span class="insti">Languages:</span> Bilingual in Mandarin Chinese and English, Conversational Spanish
+		<br/>
+		</p>
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col-6 col-md-3"><p class="section" id="activ">Activities</p>
+		</div>
+    <div class="col-12 col-md-9"><p><span class="insti">Project Pengyou Tufts Chapter</span><br/>
+		<span class="pos">Co-founder, Spring 2017</span></p>
+		<ul>
+			<li>Communicate and collaborate with all the affiliated parties and resources on campus</li>
+			<li>Prepare and hold club events in the hope of introducing genuine Chinese culture through cooking</li>
+		</ul>
+    </div>
+  </div>
+</div>
+	
 
 	
 <p><a href="index.html">Back to home</a></p>
+
 </div>
+
 </body>
 
 </html>
