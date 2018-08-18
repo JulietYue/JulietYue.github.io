@@ -6,17 +6,38 @@
 	margin-right: 10%;
 }
 
-.insti {
-	font-weight: 500;
+#intro {
+	font-family: "Futura";
+	font-size:20px;
+	text-indent: 5%;
+    border-bottom: 10px solid #d9d9d9;
+    border-top: 10px solid #d9d9d9;
 }
 
+#title {
+	font-family: "Futura";
+	font-size: 50px; 
+	width:100%;
+	text-align: center;
+}
+.insti {
+	font-weight: 500;
+	font-size: 19px;
+}
+
+.bold {
+	font-weight: 500;
+}
 .section {
 	color: #CE0827;
 	font-size: 23px;
 	font-family: "Futura";
 	border-top-color:navy ;
 	border-top-style:solid;
+	text-align: right;
+	padding-right: 10px;
 }
+
 .jumbotron {
 	background-image: url(me.JPG);
 	background-size: cover;
@@ -24,6 +45,11 @@
 	opacity: 0.7;
 	
 }
+
+.pos {
+	font-style: italic;
+}
+
 #tagtable{
 	color:white;
     position: absolute;
@@ -58,11 +84,6 @@ td{
 
 }
 
-#school{
-	font-size: 20px;
-	font-weight: 500;
-}
-
 .button{
     background-color: #CE0827;
     border-radius: 5px;
@@ -89,7 +110,7 @@ a {
 }
 
 a:visited {
-    color:#CE0827;
+    color:white;
 }
 
 #bookmark {
@@ -111,4 +132,7 @@ a:visited {
 
 }
 
+#back {
+	color:black;
+}
 
