@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Display a map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+    <link href='travelstyle.css' rel='stylesheet' />
+    <script src='location.json'></script>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWV0eXVlIiwiYSI6ImNqbmd5OWt4eTA4OHMzdm81eDJnamM1eXIifQ.K8gy41NU2Rm0wnQ_n4BT7Q';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/streets-v9', // stylesheet location
+    center: [12.329406738281248,
+          45.43941730897112], // starting position [lng, lat]
+    zoom: 1// starting zoom
+});
+
+	map.on('load', function () {
+    map.addLayer({
+        "id": "points",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "FeatureCollection",
+                "features": [{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+				          2.3486709594726562,
+				          48.85906816414895
+				        ]
+                    },
+                    "properties": {
+                        "title": "Paris",
+                        "icon": "attraction-15",
+                    }
+                },{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+          2.1838760375976562,
+          41.389945964560695
+        ]
+                    },
+                    "properties": {
+                        "title": "Barcelona",
+                        "icon": "attraction-15",
+                    }
+                }, {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+          9.188690185546875,
+          45.468799075209894
+        ]
+                    },
+                    "properties": {
+                        "title": "Milan",
+                        "icon": "attraction-15",
+                    }
+                },{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+          11.25274658203125,
+          43.77084590067953
+        ]
+                    },
+                    "properties": {
+                        "title": "Florence",
+                        "icon": "attraction-15",
+                    }
+                },{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+          12.329406738281248,
+          45.43941730897112
+        ]
+                    },
+                    "properties": {
+                        "title": "Venice",
+                        "icon": "attraction-15",
+                    }
+                },{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+          30.29205322265625,
+          59.93712838146011
+        ]
+                    },
+                    "properties": {
+                        "title": "Saint-Petersburg",
+                        "icon": "attraction-15",
+                    }
+                },{
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                          "coordinates": [
+					          9.080886840820312,
+					          45.82174155207843
+					        ]
+                    },
+                    "properties": {
+                        "title": "Lake Como",
+                        "icon": "attraction-15",
+                    }
+                },
+            //     {
+            //         "type": "Feature",
+            //         "geometry": {
+            //             "type": "Point",
+            //             "coordinates": [
+				        //   2.3486709594726562,
+				        //   48.85906816414895
+				        // ]
+            //         },
+            //         "properties": {
+            //             "title": "Paris",
+            //             "icon": "attraction-15",
+            //         }
+            //     },{
+            //         "type": "Feature",
+            //         "geometry": {
+            //             "type": "Point",
+            //             "coordinates": [
+				        //   2.3486709594726562,
+				        //   48.85906816414895
+				        // ]
+            //         },
+            //         "properties": {
+            //             "title": "Paris",
+            //             "icon": "attraction-15",
+            //         }
+            //     },
+                {
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [-122.414, 37.776]
+                    },
+                    "properties": {
+                        "title": "San Francisco",
+                        "icon": "boston-t",
+                    },
+                }]
+            }
+        },
+        "layout": {
+            "icon-image": "{icon}",
+            "text-field": "{title}",
+            "text-offset": [0, 0.6],
+            "text-anchor": "top"
+        },
+        "paint":{
+        	"text-color": "#f23455"
+        }
+
+    });
+});
+
+</script>
+
+</body>
+</html>
