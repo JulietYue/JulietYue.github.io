@@ -117,6 +117,15 @@ a:visited {
     color:white;
 }
 
+#link1{
+	color:navy;
+	font-weight: 600;
+}
+
+#link2{
+	color:navy;
+	font-weight: 600;
+}
 #travel {
 	color:navy;
 	text-decoration: underline;
