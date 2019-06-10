@@ -1,0 +1,45 @@
+.container {
+	width: 100%;
+	position: relative;
+	font-family: "AppleGothic";
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.content {
+	font-size: 20px;
+	color: black;
+	font-family: "Avenir Next";
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.title {
+	font-size: 20px;
+}
+
+
+p::first-letter {
+  color: #c69c6d;
+  float: left;
+  font-size: 2em;
+  margin: 0 .2em 0 0;
+}
+.card-title {
+	max-height: auto;
+	text-align: right;
+	background-color: rgba(59,61,62,0.9);
+	color: white;
+	margin-top: 50%;
+	/*margin-left: 60%;*/
+}
+#chueca {
+	color: #c69c6d;
+}
+#mala{
+	color: #c69c6d;
+}
+#letras{
+	color: #c69c6d;
+}
